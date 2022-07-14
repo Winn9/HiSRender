@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{eaf131d9-1b6e-455f-9dff-b7d9e08c7bae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model">
+      <UniqueIdentifier>{33004735-9220-459f-8313-7949902fd438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="render">
+      <UniqueIdentifier>{6e71efa5-13af-4671-a0c0-13c6bd068a88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{ede3afff-d3cd-4661-8f24-4dd715cd6f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{ece307ed-b335-4d1c-85d6-544c158f991d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{21429cd7-add4-44d4-976e-a82734187136}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="tgaimage.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="vector.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>shader</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="gameobject.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="renderbuffer.cpp">
+      <Filter>render</Filter>
+    </ClCompile>
+    <ClCompile Include="win32.cpp">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="platform.h">
+      <Filter>platform</Filter>
+    </ClCompile>
+    <ClCompile Include="color.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tgaimage.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>shader</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="renderbuffer.h">
+      <Filter>render</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>math</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
